@@ -8,7 +8,7 @@ deploy an airflow server with local executor for testing/development.
 - [docker](https://docs.docker.com/engine/install/) and [docker compose](https://docs.docker.com/compose/install/)
 - install the python requirements:
     ```shell
-    pip install -r requirememts.txt
+    pip install -r requirements.txt
     ```
 
 ### Development
@@ -31,7 +31,7 @@ update it to add your user infos.
 ```dotenv
 _AIRFLOW_WWW_USER_USERNAME: airflow_user
 _AIRFLOW_WWW_USER_FIRSTNAME: Airflow
-_AIRFLOW_WWW_USER_LASTNME: Admin
+_AIRFLOW_WWW_USER_LASTNAME: Admin
 _AIRFLOW_WWW_USER_EMAIL: airflowadmin@example.com
 _AIRFLOW_WWW_USER_ROLE: Admin
 _AIRFLOW_WWW_USER_PASSWORD: airflow_password
